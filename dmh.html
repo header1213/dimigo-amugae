@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>
+			생활관의 모든 것을 책임지는 디미고 기숙사 인트라넷, 디미고 라이프
+		</title>
+		<style>
+			.flex-big {
+				display: flex;
+				height: 70px;
+				border: 1px solid gray;
+				border-radius: 15px;
+				overflow: hidden;
+			}
+			.flex-big > .flex-row {
+				border: 1px solid gray;
+			}
+			.flex-row {
+				display: flex;
+			}
+			.flex-row div {
+				text-align: center;
+				line-height: 65px;
+			}
+			.flex-column {
+				display: flex;
+				flex-direction: column;
+			}
+			div {
+				flex-grow: 1;
+			}
+			.rounded {
+				border: 1px solid gray;
+				border-radius: 15px;
+				margin: 10px;
+				height: 200px;
+			}
+			strong {
+				font-weight: 900;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex-big">
+			<div class="flex-row">
+				<div>
+					<strong>잔류신청</strong>
+				</div>
+				<div>
+					미신청
+				</div>
+			</div>
+			<div class="flex-row">
+				<div>
+					<strong>세탁신청</strong>
+				</div>
+				<div>
+					미신청
+				</div>
+			</div>
+			<div class="flex-row">
+				<div>
+					<strong>금요귀가</strong>
+				</div>
+				<div>
+					미신청
+				</div>
+			</div>
+		</div>
+		<div class="flex-row">
+			<div class="rounded">
+				잔류 신청
+			</div>
+			<div class="rounded">
+				금요귀가 신청
+			</div>
+		</div>
+		<div class="flex-row">
+			<div class="rounded">
+				세탁 신청
+			</div>
+			<div class="rounded">
+				기상송 신청
+			</div>
+		</div>
+		<div class="rounded">
+			<div class="flex-column">
+				<div><strong>지도일지</strong>(최근 3개만 표시됩니다)</div>
+				<div>전자기기규정위반(07-01) - 경고 및 훈계, 압수 1회</div>
+			</div>
+		</div>
+	</body>
+</html>
